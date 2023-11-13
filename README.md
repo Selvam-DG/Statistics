@@ -23,5 +23,4 @@
 - **Mode** : The ”sample mode” is defined as the value that occurs with the highest frequency. If no single value occurs most frequently, then all the values that occur at the highest
  frequency are called “modal values”
 - **Sample Variance**: The sample variance is based on the squares of differences between observed values and their mean. It shows how the data is distributed from the mean value.
-   - Square root of variance is **Standard deviation**
--
+   - Square root of variance is **Standard deviation**.
