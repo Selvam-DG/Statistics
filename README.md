@@ -1,3 +1,3 @@
-# Statistics Learn with R_programming
-- using R software, how the datas are visualized, sorted and plot in graphs
-- This Introduction practices is the basic to  learn R program
+#  Learn Statistic in R_programming
+- using R software, how the data are visualized, sorted and plot in graphs
+- This Introduction practice is the basics to  learn the R program
