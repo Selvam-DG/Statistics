@@ -1,4 +1,4 @@
-# Statistics_-and_R_programming
+# Statistics_and_R_programming
 
 # Statistics
 ### Statistics is a method for producing convenient summaries of data which then enables us to make inferences about the unknown
