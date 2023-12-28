@@ -38,7 +38,7 @@
 ## CONDITIONAL PROBABILITY
 -  Let E and F denote some events, the conditional probability of E given that F has occurred and is denoted by P(E|F )
   - P(E|F ) = P(EF)/P(F )
-    ![image](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/bbe86d98-5ab3-41fe-abd6-37cc936b43af)
+![image](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/bbe86d98-5ab3-41fe-abd6-37cc936b43af)
   - Note the above equation is well defined only when P(F )>0andhenceP(E|F )is defined only when P(F )>0
 -  the probability that both E and F occur is equal to
 - The probability that F occurs multiplied by the conditional probability of E given that F occurred
