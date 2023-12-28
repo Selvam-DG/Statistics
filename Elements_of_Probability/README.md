@@ -43,11 +43,14 @@
 -  the probability that both E and F occur is equal to
 - The probability that F occurs multiplied by the conditional probability of E given that F occurred
   - P(EF) = P(F)P(E|F)
+  
 ## BAYES’ FORMULA
 - Total Probability Theorem: 
 -  P(E ) = P(E|F)*P(F) + P(E|Fc)*(1−P(F))
 -  P(Fj|E ) =  P(E|Fj)P(Fj) / P(E) =  P(E|Fj)P(Fj) / summation (P(E|F)*P(F) + P(E|Fc)*(1−P(F)))
-  ![image](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/133bc3cb-b7a0-4347-ab1d-3489f9296a29)
+
+
+![image](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/133bc3cb-b7a0-4347-ab1d-3489f9296a29)
 
 ## INDEPENDENT EVENTS
 - Suppose E and F are independent events, then  P(EF ) = P(E)*P(F)
