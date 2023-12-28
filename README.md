@@ -24,3 +24,25 @@
  frequency are called “modal values”
 - **Sample Variance**: The sample variance is based on the squares of differences between observed values and their mean. It shows how the data is distributed from the mean value.
    - Square root of variance is **Standard deviation**.
+
+
+σ1,σ2 known X−Y
+ σ2
+ 1/n+σ2
+ 2/m
+ σ1 = σ2 X−Y
+ (n−1)S2 1+(m−1)S2 2
+ n+m−2
+ n, m large X−Y
+ S2
+ 1/n+S2
+ 2/m
+ 2P{Z ≥|t|}
+ Reject if |TS| > zα/2
+ √
+ 1/n+1/m
+ Reject if |TS| > tα/2,n+m−2
+ Reject if |TS| > zα/2
+ 2P{Tn+m−2 ≥|t|}
+ 2P{Z ≥|t|
+ ![Screenshot 2023-12-28 131046](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/e15b9d7f-eb45-46a1-96cd-cdb8e5090ae7)
