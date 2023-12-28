@@ -4,8 +4,8 @@
 -   A hypothesis that, when true, completely specifies the population distribution is called a simple hypothesis; one that does not is called a composite hypothesis.
 
 ## Test
-- H0 = Null Hypothesis
-- H1 = Alternative Hypothesis
+- H0 = Null Hypothesis (already claimed or maintained)
+- H1 = Alternative Hypothesis (to verify the claim)
   
 - ## Errors
 - It is important to note when developing a procedure for testing a given null hypothesis H0 that, in any test, two different types of errors can result.
@@ -13,7 +13,7 @@
    - It is said to result if the test incorrectly calls for rejecting H0 when it is indeed correct.
    - Reject H0 from test results eventhough H0 is true
 - Type II error:
-   - It states that the results if the test calls for accepting H0 when it is false
+   - It states that the results of the test calls for accepting H0 when it is false
    - Accepting H0 from the test result but actually H0 is false(that is H0 should reject)
  
 ## TESTS CONCERNING THE MEAN OF A NORMAL POPULATION
