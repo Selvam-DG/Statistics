@@ -82,6 +82,34 @@ ________________________________________________________________________________
   - Var(X) = E[(X −µ)^2]
   - Var(X) = E[X^2] − (E[X])^2
 
+-  Var(aX +b) = a^2 * Var(X)
+- The quantity SQRT(Var(X)) is called the standard deviation of X. The standard deviation has the same units as the mean.
+
+## COVARIANCE AND VARIANCE OF SUMS OF RANDOM VARIABLES
+
+- the expectation of a sum of random variables is equal to the sum of their expectations. The corresponding result for variances is, however, not generally valid.
+  - Var(X +X) = 4Var(X)
+- an important case in which the variance of a sum of random variables is equal to the sum of the variances; and this is when the random variables are independent
+- The covariance of two random variables X and Y, written Cov(X,Y) is defined by
+  -  Cov(X,Y ) = E[(X −µx)*(Y −µy)]
+  -  Cov(X,Y ) = E[X*Y] − E[X] * E[Y]
+
+- Cov(X,Y ) = Cov(Y,X)
+- Cov(X,X) = Var(X)
+- Cov(aX,Y ) = a Cov(X,Y)
+- Cov(X +Z,Y) = Cov(X,Y)+Cov(Z,Y)
+![Screenshot 2023-12-28 210050](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/55bd1b27-ff4f-4238-85f9-dc5703de6847)
+
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-28 210057](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/48da55db-0bc8-45a2-a1a6-40d79ce02156)
+
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-28 210138](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/51690d6d-aab6-4ba7-8729-162251992f73)
+
+________________________________________________________________________________________________________________________________________________________________________________________________________________________
+-  If X and Y are independent random variables, then Cov(X,Y)=0
+![Screenshot 2023-12-28 210334](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/fb6ea8fb-a9a8-431f-b994-6caadbe241c4)
+
 
 
 
