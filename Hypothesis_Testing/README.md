@@ -7,7 +7,7 @@
 - H0 = Null Hypothesis (already claimed or maintained)
 - H1 = Alternative Hypothesis (to verify the claim)
   
-- ## Errors
+## Errors
 - It is important to note when developing a procedure for testing a given null hypothesis H0 that, in any test, two different types of errors can result.
 - Type I error:
    - It is said to result if the test incorrectly calls for rejecting H0 when it is indeed correct.
@@ -18,4 +18,6 @@
  
 ## TESTS CONCERNING THE MEAN OF A NORMAL POPULATION
 ![Screenshot 2023-12-28 132500](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/b2231b41-1800-481a-bb0e-d40a6351c810)
+
+##  Case of Unknown Variance: The t-Test
 ![Screenshot 2023-12-28 131046](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/415b29c0-e982-4215-aab2-f48316b073e7)
