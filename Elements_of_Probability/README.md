@@ -23,8 +23,8 @@
 1.  0 ≤ P(E ) ≤ 1
 2.  P(S ) = 1
 3.  Probability of union of all events = summation of the probability of individual events, if all events are mutually exclusive
- [Screenshot 2023-12-28 191758](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/5773ef3d-85b4-4cb2-b7fb-64f0eb13f788)
-- We first note that E and Ec are always mutually exclusive, and since E ∪ Ec = S
+ ![Screenshot 2023-12-28 191758](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/5773ef3d-85b4-4cb2-b7fb-64f0eb13f788)
+- We first note that E and Ec are always mutually exclusive and since E ∪ Ec = S
     - 1 =P(S) =P(E ∪ Ec) = P(E) + P(Ec)
 - PROPOSITION
   - P(Ec) = 1 - P(E)
@@ -38,5 +38,19 @@
 ## CONDITIONAL PROBABILITY
 -  Let E and F denote some events, the conditional probability of E given that F has occurred and is denoted by P(E|F )
   - P(E|F ) = P(EF)/P(F )
-    [image](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/bbe86d98-5ab3-41fe-abd6-37cc936b43af)
+    ![image](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/bbe86d98-5ab3-41fe-abd6-37cc936b43af)
   - Note the above equation is well defined only when P(F )>0andhenceP(E|F )is defined only when P(F )>0
+-  the probability that both E and F occur is equal to
+- The probability that F occurs multiplied by the conditional probability of E given that F occurred
+  - P(EF) = P(F)P(E|F)
+## BAYES’ FORMULA
+- Total Probability Theorem: 
+-  P(E ) = P(E|F)*P(F) + P(E|Fc)*(1−P(F))
+-  P(Fj|E ) =  P(E|Fj)P(Fj) / P(E) =  P(E|Fj)P(Fj) / summation (P(E|F)*P(F) + P(E|Fc)*(1−P(F)))
+  ![image](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/133bc3cb-b7a0-4347-ab1d-3489f9296a29)
+
+## INDEPENDENT EVENTS
+- Suppose E and F are independent events, then  P(EF ) = P(E)*P(F)
+- if E is independent of F, then the probability of E’s occurrence is unchanged by information as to whether or not F has occurred
+- Suppose now that E is independent of F and is also independent of G. Is E then necessarily independent of FG? The answer, somewhat surprisingly, is **no**.
+- 
