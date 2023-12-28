@@ -4,9 +4,9 @@
   - line graph
   - bar graph
   - frequency polygon
--  Relative Frequency Tables and Graphs
-  -  a data set consisting of n values. If f is the frequency of a particular value, then the ratio f /n is called its relative frequency.
-  -  The relative frequencies can be represented graphically by a relative frequency line or bar graph or by a relative frequency polygon
+- Relative Frequency Tables and Graphs
+  - a data set consisting of n values. If f is the frequency of a particular value, then the ratio f /n is called its relative frequency.
+  - The relative frequencies can be represented graphically by a relative frequency line or bar graph or by a relative frequency polygon
 - GroupedData, Histograms
   - A bar graph plot of class data, with the bars placed adjacent to each other, is called a histogram
 
