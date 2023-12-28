@@ -1,1 +1,95 @@
+## THE BERNOULLI AND BINOMIAL RANDOM VARIABLES
+- suppose that a trial, or an experiment, whose outcome can be classified as either a “success” or as a “failure” is performed. If we let X = 1 when the outcome is a success and X = 0 when it is a failure, then the probability mass function of X is given by
+  - P{X =0}=1−p
+  - P{X =1}=p, where p, 0≤ p ≤ 1, is the probability that the trial is a “success.”
+- A random variable X is said to be a Bernoulli random variable if its probability mass function is given by P{X =0}=1−p or P{X =1}= p and Its expected value is  E[X]=1·P{X = 1}+0·P{X =0}= p
+- the expectation of a Bernoulli random variable is the probability that the random variable equals 1
+
+- Suppose now that n independent trials, each of which results in a “success” with probability p and in a “failure” with probability 1 − p, are to be performed. If X represents the number of successes that occur in the n trials, then X is said to be a binomial random variable with parameters (n, p). The probability mass function of a binomial random variable with parameters n and p is given by
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-28 221335](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/961c72cb-6ff8-4d74-9fc6-6b24aebefe98)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ If n = 1, the binomial random variable is a bernoulli random variable
+- A binomial random variable X, with parameters n and p, represents the number of successes in n independent trials, each having success probability p,
+  - Expected value  E[X] = np
+  - Variance, Var(X)  = np(1−p)
+
+#### Computing the Binomial Distribution Function
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-28 221842](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/98b2f7a3-899a-4664-b3dc-e9fdad0f99ec)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## THE POISSON RANDOM VARIABLE
+
+ - A random variable X, taking on one of the values 0, 1, 2,..., is said to be a Poisson random variable with parameter λ,λ>0, if its probability mass function is given by,
+   - P{X =i}=e^−λ* (λ^i/ i!     , i =0,1,...
+   -  The symbol e stands for a constant approximately equal to 2.7183
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-28 222204](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/8b69c7c1-4991-4acb-950f-ff4461967475)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+-  if n independent trials, each of which results in a “success” with probability p, are performed, then when n is large and p small, the number of successes occurring is approximately a Poisson random variable with mean λ = np
+  - Expected value  E[X] =  λ
+  - Variance, Var(X)  =  λ
+-  Some examples of random variables that usually obey, to a good approximation, the Poisson probability law are
+ 1. The number of misprints on a page (or a group of pages) of a book.
+ 2. The number of people in a community living to 100 years of age.
+ 3. The number of wrong telephone numbers that are dialed in a day.
+ 4. The number of transistors that fail on their first day of use.
+ 5. The number of customers entering a post office on a given day.
+ 6. The number of α-particles discharged in a fixed period of time from some radioactive particle.
+##### Computing the Poisson Distribution Function
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-28 222728](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/54136bcf-4081-4555-8540-98c533f1cc11)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+##  THE HYPERGEOMETRIC RANDOM VARIABLE
+- A bin contains N+M batteries, of which N are of acceptable quality and the other M are defective. A sample of size n is to be randomly chosen (without replacements) in the sensethat the set of sampled batteries is equally likely to be any of the N+M n subsetsof size n.  If we let X denote the number of acceptable batteries in the sample, then
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-28 223725](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/b57db78d-7400-4143-ba10-558e738d1a69)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+- Any random variable X whose probability mass function is given as above is said to be a hypergeometric random  variable with parameters N,M,n
+  - Expected value  E[X] =  nN / (N +M)
+  - Variance, Var(X)  =   (nNM/ (N+M)^2) * (1− ((n−1)/( N +M−1)))
+
+## THE UNIFORM RANDOM VARIABLE
+- A random variable X is said to be uniformly distributed over the interval [α,β] if its probability density function is given by
+  - f (x) =  1/ (β −α) if α≤x ≤β
+  - f(x) = 0  otherwis
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-28 224415](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/e4b4b17d-0532-4f10-8b91-7bb12c67a011)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+- The probability that X lies in any subinterval of [α,β] is equal to the length of that subinterval divided by the length of the interval [α,β]
+-  when [a, b]  is a subinterval of [α,β]
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-28 224342](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/b0b4d38f-e91e-4e27-a4af-9dedbfb4446e)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+  - Expected value  E[X] =   (α + β) / 2
+  - Variance, Var(X)  =  (β −α)^2 / 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
