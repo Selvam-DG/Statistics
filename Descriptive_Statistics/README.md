@@ -47,21 +47,23 @@
 - IQR = InterQuartileRange = q3 - q1
 - A box plot is often used to plot some of the summarizing statistics of a dataset
 ![image](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/f6a067f6-855c-4d57-abba-2e16df68f3b4)
-
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________
 #### NORMAL DATASETS:
 - If histograms often reach their peaks at the sample median and then decrease on both sides of this point in a bell-shaped symmetric fashion. Such data sets are said to be normal and their histograms are called normal histograms
 - Any data set that is not symmetric about its sample median, then the dataset is said to be skewed (skewed to right or skewed to left)
--  The Empirical Rule:
-  - Approximately 68 percent of the observations lie within µ ±s
-  - Approximately 95 percent of the observations lie within µ ±2s
-  - Approximately 99.7 percent of the observations lie within µ±3s
+- The Empirical Rule:
+    - Approximately 68 percent of the observations lie within µ ±s
+    - Approximately 95 percent of the observations lie within µ ±2s
+    - Approximately 99.7 percent of the observations lie within µ±3s
 ![image](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/d4d978af-ca5a-42ce-83d3-9bd2ee5501e7)
-
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ####  PAIRED DATASETS AND THE SAMPLE CORRELATION COEFFICIENT
 -  scatter diagram
 -  sample correlation coefficient (r)
   
  ![Screenshot 2023-12-28 185002](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/45f11c48-8c91-4a57-ac85-d17bbbb64855)
+
+
 - Properties of r
     1. −1 ≤r ≤1
     2. If for constants a and b, with b >0,  yi =a+bxi, then r =1. i =1,...,n
