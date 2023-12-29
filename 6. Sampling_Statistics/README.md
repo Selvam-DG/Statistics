@@ -49,6 +49,16 @@ ________________________________________________________________________________
 ## THE SAMPLE VARIANCE
 ![Screenshot 2023-12-29 140546](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/7fbeeead-0b72-4a2a-856b-6fa2f3897842)
 ## SAMPLING DISTRIBUTIONS FROM A NORMAL POPULATION
+- Let X1,X2,...,Xn be a sample from a normal population having mean µ and variance σ2. That is, they are independent and Xi ∼ N(µ,σ2),i = 1,...,n.
+- If X1,...,Xn is a sample from a normal population having mean µ and variance σ2, then X and S2 are independent random variables, with X being normal with mean µ and variance σ2/n and (n − 1)S2/σ2 being chi-square with n − 1 degrees of freedom.
+-  Let Xi,...,Xn be a sample from a normal population with mean µ. If X denotes the sample mean and S the sample standard deviation, then
+
+   SQRT( n) * (X −µ) / S = tn−1 ,  That is, SQRT(n)*(X − µ)/S has a t-distribution with n − 1 degrees of freedom.
+
+
+
+
+
 
 
 
