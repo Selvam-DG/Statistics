@@ -11,7 +11,6 @@
 - The expected value of the sample mean is the population mean µ whereas its variance is 1/n times the population variance
 ![Screenshot 2023-12-29 135027](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/cc850d12-e586-48d1-a91d-25898a065265)
 - When the sample size increases, the variance decreases
-
 ![Screenshot 2023-12-29 135215](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/3e688a8f-509f-4b87-b8e0-ecacbf6a3ae5)
 
 ## The Central Limit Theorem
