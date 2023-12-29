@@ -9,7 +9,7 @@
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ![Screenshot 2023-12-28 221335](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/961c72cb-6ff8-4d74-9fc6-6b24aebefe98)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
- If n = 1, the binomial random variable is a bernoulli random variable
+- If n = 1, the binomial random variable is a bernoulli random variable
 - A binomial random variable X, with parameters n and p, represents the number of successes in n independent trials, each having success probability p,
   - Expected value  E[X] = np
   - Variance, Var(X)  = np(1−p)
@@ -27,6 +27,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ![Screenshot 2023-12-28 222204](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/8b69c7c1-4991-4acb-950f-ff4461967475)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 
 -  if n independent trials, each of which results in a “success” with probability p, are performed, then when n is large and p small, the number of successes occurring is approximately a Poisson random variable with mean λ = np
   - Expected value  E[X] =  λ
@@ -57,6 +58,7 @@ ________________________________________________________________________________
 - A random variable X is said to be uniformly distributed over the interval [α,β] if its probability density function is given by
   - f (x) =  1/ (β −α) if α≤x ≤β
   - f(x) = 0  otherwis
+    
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ![Screenshot 2023-12-28 224415](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/e4b4b17d-0532-4f10-8b91-7bb12c67a011)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
@@ -66,25 +68,74 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ![Screenshot 2023-12-28 224342](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/b0b4d38f-e91e-4e27-a4af-9dedbfb4446e)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Situations:
+  - Discrete case
+    1. Rolling a fair die
+    2. Draw a lot out of n lots
+  - Continuous case
+    1. Arrival time of a guest who said that he arrives between 8 and 9
+    2. Random number in [0,1
 
-  - Expected value  E[X] =   (α + β) / 2
-  - Variance, Var(X)  =  (β −α)^2 / 12
-
-
-
-
-
-
-
-
-
+- Expected value  E[X] =   (α + β) / 2
+- Variance, Var(X)  =  (β −α)^2 / 12
 
 
+## NORMAL RANDOM VARIABLES
+-  A random variable is said to be normally distributed with parameters µ and σ2, and we write X ∼ N(µ,σ2), if its density is
+  -  f (x) = (1/(σ * sqrt(2*pi))) * exp([−(x−µ)^2)/2σ^2], −∞ < x < ∞
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-29 123947](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/a47b3c7a-0236-42b6-895e-b3c54e273aa5)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-29 124117](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/6e0dfd7c-40d2-49eb-a255-0e4b4cfe2247)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+- Expected value, E[X] = µ
+- Variance, Var(X)= E[X^2]−(E[X])^2 = σ^2
+
+####  standard or unit normal distribution
+- If the random variable, X∼N(µ,σ2), then  Z= (X−µ) / σ  is a normal random variable with mean 0 and variance 1. Such a random variable Z is said to have a standard or unit normal distribution
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-29 124904](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/31e5db9d-f914-4e8c-93d1-38e8072a4436)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-29 125141](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/d0ce52e5-8d29-4889-b474-1a639d434bd9)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+-  For α ∈ (0,1), let (z of α) be such that P{Z > (z at α)}=1− (z of α) = α That is, the probability that a standard normal random variable is greater than (z of α) is equal to α 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-29 125608](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/2cfd0245-4cee-4ef0-97f7-a88d467b18cb)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+-  P{Z<(z of α)} = (1−α) it follows that 100*(1−α) percent of the time a standard normal random variable will be less than zα. As a result, we call (z of α) the 100*(1−α) percentile of the standard normal distribution.
 
 
+## EXPONENTIAL RANDOM VARIABLES
+- Situations:
+  - Waiting time until some specific event occurs (e.g., customer arriving at a queue, earthquake, new war, etc.)
+- Probability density function: λ > 0
+  - X ∼Exp(λ) :⇔ f(x) = λ*exp(−λx) , x ∈ R
+-  A continuous random variable is said to be an exponential randomvariable with parameter λ (λ>0), whose probability density function is given by 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-29 130516](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/16553d49-9c40-4f79-874f-92b26f14c13e)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- The cumulative distribution function F(x) of an exponential random variable is given by
+  - F(x) =  =P{X≤x} = 1− exp(−λx)   , x≥0
+- Expected value, E[X] =  1/λ
+- Variance, Var(X) = 1/(λ^2)
+- Thus λ is the reciprocal of the mean, and the variance is equal to the square of the mean.
+- The key property of an exponential random variable is that it is **memoryless**, where we say that a non-negative random variable X is memoryless if
+   - P{X >s +t|X >t} = P{X >s}     ,for all s,t ≥ 0
+
+##  DISTRIBUTIONS ARISING FROM THE NORMAL
+
+### The Chi-Square Distribution
+- If Z1,Z2,...,Zn are independent standard normal random variables, then X, defined by X =Z1^2 + Z2^2 +···+Zn^2 is said to have a chi-square distribution with n degrees of freedom. We will use the notation
+  -  X ∼ χ^2 with n , to signify that X has a chi-square distribution with n degrees of freedom.
 
 
-
+###  The t-Distribution
+- If Z and χ^2 are independent random variables, with Z having a standard normal distribution and χ2 having a chi-square distribution with n degrees of freedom, then the random variable is said to have a t-distribution with n degrees of freedom, Tn defined by
+  - Tn = Z / (SQRT(χ2 /n)) 
+![Screenshot 2023-12-29 131918](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/a236fc34-8632-47ea-a0f0-b4d6f6498e1b)
 
 
 
