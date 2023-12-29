@@ -15,18 +15,19 @@
 ![Screenshot 2023-12-29 135215](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/3e688a8f-509f-4b87-b8e0-ecacbf6a3ae5)
 
 ## The Central Limit Theorem
-- Let X1, X2,..., Xn be a sequence of independent and identically distributed random variables each having mean µ and variance σ2. Then for n large, the distribution of \n
-- 
-                               X1 +···+Xn
- is approximately normal with mean nµ and variance nσ2.\n
+- Let X1, X2,..., Xn be a sequence of independent and identically distributed random variables each having mean µ and variance σ2. Then for n large, the distribution of 
 
- It follows from the central limit theorem that
+  X1 +···+Xn
+ is approximately normal with mean nµ and variance n*(σ^2).
+
+ - It follows from the central limit theorem that
  
                        (X1 +···+Xn −nµ) / σ*SQRT(n)
                        
  is approximately a standard normal random variable; thus, for n large,
  
-           P{[(X1+···+Xn)−nµ / σ√n] <x } ≈ P{Z <x}, where Z is a standard normal random variable
+           P{[(X1+···+Xn)−nµ / σ√n] <x } ≈ P{Z <x}
+where Z is a standard normal random variable
 
 
 
