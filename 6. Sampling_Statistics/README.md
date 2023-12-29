@@ -17,31 +17,39 @@
 ## The Central Limit Theorem
 - Let X1, X2,..., Xn be a sequence of independent and identically distributed random variables each having mean µ and variance σ2. Then for n large, the distribution of 
 
-  X1 +···+Xn
+            X1 +···+Xn
+  
  is approximately normal with mean nµ and variance n*(σ^2).
 
  - It follows from the central limit theorem that
  
-                       (X1 +···+Xn −nµ) / σ*SQRT(n)
+          (X1 +···+Xn −nµ) / σ*SQRT(n)
                        
  is approximately a standard normal random variable; thus, for n large,
  
            P{[(X1+···+Xn)−nµ / σ√n] <x } ≈ P{Z <x}
 where Z is a standard normal random variable
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-29 140345](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/6bba9027-4567-41bf-81db-71f3f666a674)
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#### Approximate DistributionoftheSample Mean
+
+- Let X1,...,Xn be a sample from a population having mean µ and variance σ2.The central limit theorem can be used to approximate the distribution of the sample mean
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+![Screenshot 2023-12-29 140131](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/0d432e92-e1d4-4b22-840e-0fa700f85836)
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+- Since the sample mean has expected value µ and standard deviation σ/√n, it then follows form  has approximately a standard normal distribution.
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-29 140235](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/706bcd08-0cd0-42be-8728-d0ed02fd1f97)
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+## THE SAMPLE VARIANCE
+![Screenshot 2023-12-29 140546](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/7fbeeead-0b72-4a2a-856b-6fa2f3897842)
+## SAMPLING DISTRIBUTIONS FROM A NORMAL POPULATION
 
 
 
