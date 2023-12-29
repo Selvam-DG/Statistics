@@ -16,11 +16,16 @@
 
 ## The Central Limit Theorem
 - Let X1, X2,..., Xn be a sequence of independent and identically distributed random variables each having mean µ and variance σ2. Then for n large, the distribution of \n
+- 
                                X1 +···+Xn
  is approximately normal with mean nµ and variance nσ2.\n
+
  It follows from the central limit theorem that
+ 
                        (X1 +···+Xn −nµ) / σ*SQRT(n)
+                       
  is approximately a standard normal random variable; thus, for n large,
+ 
            P{[(X1+···+Xn)−nµ / σ√n] <x } ≈ P{Z <x}, where Z is a standard normal random variable
 
 
