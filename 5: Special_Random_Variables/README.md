@@ -128,16 +128,32 @@ ________________________________________________________________________________
 ##  DISTRIBUTIONS ARISING FROM THE NORMAL
 
 ### The Chi-Square Distribution
+- Situations: Square of normally distributed deviations.
 - If Z1,Z2,...,Zn are independent standard normal random variables, then X, defined by X =Z1^2 + Z2^2 +···+Zn^2 is said to have a chi-square distribution with n degrees of freedom. We will use the notation
   -  X ∼ χ^2 with n , to signify that X has a chi-square distribution with n degrees of freedom.
-
+-  If X is a chi-square random variable with n degrees of freedom, then for any α ∈ (0,1), the quantity χ2 with α,n is defined to be such that
+  - P{X ≥ χ^2 (α,n)} = α
+![Screenshot 2023-12-29 132331](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/89ceea32-10ef-405d-a5fa-a4c273333fb6)
 
 ###  The t-Distribution
 - If Z and χ^2 are independent random variables, with Z having a standard normal distribution and χ2 having a chi-square distribution with n degrees of freedom, then the random variable is said to have a t-distribution with n degrees of freedom, Tn defined by
   - Tn = Z / (SQRT(χ2 /n)) 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ![Screenshot 2023-12-29 131918](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/a236fc34-8632-47ea-a0f0-b4d6f6498e1b)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- E[Tn]=0,  if n >1
+- Var(Tn) = n/ (n −2) , if n>2
+- P{ Tn ≥ t(α,n)} = α
+- P{Tn ≥−t(α,n)}=1−α
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  ![Screenshot 2023-12-29 132736](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/767e4005-8b5e-4ff6-af8c-a007e8d6db61)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+### The F-Distribution
 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+![Screenshot 2023-12-29 133003](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/e44b942d-e444-4632-86c7-0239eb703ea4)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
 
