@@ -4,7 +4,9 @@
   - P{X =1}=p, where p, 0≤ p ≤ 1, is the probability that the trial is a “success.”
 - A random variable X is said to be a Bernoulli random variable if its probability mass function is given by P{X =0}=1−p or P{X =1}= p and Its expected value is  E[X]=1·P{X = 1}+0·P{X =0}= p
 - the expectation of a Bernoulli random variable is the probability that the random variable equals 1
-
+- Situations:
+   1. ”**Bernoulli distribution**”: One trial or experiment with outcome “success” or “failure” (medicament does or does not help; penalty with or without a goal; coin toss does or does not land head; etc.)
+   2. ”**Binomial distribution**”: n independent trials, each with outcome “success” or “failure”
 - Suppose now that n independent trials, each of which results in a “success” with probability p and in a “failure” with probability 1 − p, are to be performed. If X represents the number of successes that occur in the n trials, then X is said to be a binomial random variable with parameters (n, p). The probability mass function of a binomial random variable with parameters n and p is given by
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ![Screenshot 2023-12-28 221335](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/961c72cb-6ff8-4d74-9fc6-6b24aebefe98)
@@ -45,7 +47,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ##  THE HYPERGEOMETRIC RANDOM VARIABLE
-- A bin contains N+M batteries, of which N are of acceptable quality and the other M are defective. A sample of size n is to be randomly chosen (without replacements) in the sensethat the set of sampled batteries is equally likely to be any of the N+M n subsetsof size n.  If we let X denote the number of acceptable batteries in the sample, then
+- A bin contains N+M batteries, of which N are of acceptable quality and the other M are defective. A sample of size n is to be randomly chosen (without replacements) in the sense that the set of sampled batteries is equally likely to be any of the N+M n subsets of size n.  If we let X denote the number of acceptable batteries in the sample, then
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ![Screenshot 2023-12-28 223725](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/b57db78d-7400-4143-ba10-558e738d1a69)
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________
