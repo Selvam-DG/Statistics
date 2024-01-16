@@ -19,7 +19,9 @@
 ##### Inferences Concerning α
 ##### Inferences Concerning the Mean Response α+βx0
 ##### Prediction Interval of a Future Response
+![Screenshot 2024-01-16 173503](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/fd5d1c7c-05c7-4957-9574-83ff6d41a4e6)
 
+![Screenshot 2024-01-16 173521](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/28bc5df3-d757-49ba-9bdd-39c4324ac8f3)
 ### THE COEFFICIENT OF DETERMINATION AND THE SAMPLE CORRELATION COEFFICIENT
 
 
