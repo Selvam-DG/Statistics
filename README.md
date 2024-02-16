@@ -1,5 +1,5 @@
 # Statistics_and_R_programming
-
+Source: INTRODUCTION TO PROBABILITY AND STATISTICS FOR ENGINEERS AND SCIENTISTS, Third Edition, Sheldon M.Ross
 # Statistics
 ### Statistics is a method for producing convenient summaries of data which then enables us to make inferences about the unknown
 1. descriptive statistics:
