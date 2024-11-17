@@ -18,12 +18,12 @@
   - The sample mean is the summation of all values divided by the total number of values
  ![Screenshot 2023-12-28 181417](https://github.com/Selvam-DG/Statistics_-and_R_programming/assets/98681717/e81ee570-42a3-4df9-b767-3d0e9e6dadf4)
 
-#### Sample mode:
+#### Sample Median:
 - Order the values of size from smallest to largest.
 - If n is odd, the sample median is the value in position (n+1)/2;
 - If n is even, it is the average of the values in positions (n/2) and (n/2)+1.
 
-#### Sample mode:
+#### Sample Mode:
 - the value that occurs with the greatest frequency in the dataset is the sample mode
 - If no single value occurs most frequently, then all the values that occur at the highest frequency are called modal values
 
